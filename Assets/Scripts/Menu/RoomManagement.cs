@@ -9,7 +9,7 @@ using System.IO;
 public class RoomManagement : MonoBehaviour {
 
 public Text usernameText, ipText, errorText;
-public Canvas error;
+
 protected string autofillPath;
 protected string user, ip;
 
@@ -17,7 +17,6 @@ protected string user, ip;
 	void Start () {
 
 		autofillPath = Vars.path + "/autofill.cfg";
-		error.enabled = false;
 
 		try {
 			ipText.GetComponentInParent<InputField>().text = File.ReadAllLines(autofillPath)[0];
@@ -53,14 +52,7 @@ protected string user, ip;
 
             SceneManager.LoadScene("TestMap");
 		} catch {
-			
-			errorText.text = "Could not connect to " + ip + ". Please verify that the ip is correct.";
-			Debug.LogError(errorText.text);
-			error.enabled = true;
+			Popup.CreateError("Could not connect to " + ip + ". Please verify that the ip is correct.");
 		}
-	}
-
-	public void CloseError() {
-		error.enabled = false;
 	}
 }

@@ -1,12 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{909CC1D5-BD75-9855-1B78-CDD45D815707}") = "TowerRush", "Assembly-CSharp-firstpass.csproj", "{5634AAFB-7FC6-D2C3-26DF-548CD721EFD9}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerRush", "Assembly-CSharp-firstpass.csproj", "{5634AAFB-7FC6-D2C3-26DF-548CD721EFD9}"
 EndProject
-Project("{909CC1D5-BD75-9855-1B78-CDD45D815707}") = "TowerRush", "Assembly-CSharp.csproj", "{61E0D2A8-F41F-6A12-FE29-DBBD20B7C496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerRush", "Assembly-CSharp.csproj", "{61E0D2A8-F41F-6A12-FE29-DBBD20B7C496}"
 EndProject
-Project("{909CC1D5-BD75-9855-1B78-CDD45D815707}") = "TowerRush", "Assembly-CSharp-Editor-firstpass.csproj", "{8246ABAC-209F-CEBE-5015-F1D32A3B3962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerRush", "Assembly-CSharp-Editor-firstpass.csproj", "{8246ABAC-209F-CEBE-5015-F1D32A3B3962}"
 EndProject
-Project("{909CC1D5-BD75-9855-1B78-CDD45D815707}") = "TowerRush", "Assembly-CSharp-Editor.csproj", "{B44DC157-7DE7-8FF0-E752-B49D5D0AA2BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerRush", "Assembly-CSharp-Editor.csproj", "{B44DC157-7DE7-8FF0-E752-B49D5D0AA2BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

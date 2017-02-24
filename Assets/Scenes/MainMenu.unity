@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 268606556}
   - component: {fileID: 268606555}
   m_Layer: 5
-  m_Name: joinButton (1)
+  m_Name: PopupButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.63529414, g: 1, b: 1, a: 0.5411765}
     m_HighlightedColor: {r: 0, g: 0.8455882, b: 0.2507606, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -1174,9 +1174,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1749945484}
-        m_MethodName: CloseError
-        m_Mode: 1
+      - m_Target: {fileID: 1930378967}
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6710,6 +6710,7 @@ RectTransform:
   - {fileID: 1749945483}
   - {fileID: 1512194496}
   - {fileID: 917620182}
+  - {fileID: 1930378962}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8266,7 +8267,7 @@ GameObject:
   - component: {fileID: 1567441921}
   - component: {fileID: 1567441920}
   m_Layer: 5
-  m_Name: Error :|
+  m_Name: Header
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8618,7 +8619,7 @@ GameObject:
   - component: {fileID: 1637481147}
   - component: {fileID: 1637481146}
   m_Layer: 5
-  m_Name: optionsButtonText
+  m_Name: PopupButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9200,7 +9201,6 @@ RectTransform:
   - {fileID: 1345396015}
   - {fileID: 1451120846}
   - {fileID: 1928657647}
-  - {fileID: 1930378962}
   m_Father: {fileID: 1338993472}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9223,7 +9223,6 @@ MonoBehaviour:
   usernameText: {fileID: 1692270839}
   ipText: {fileID: 695874136}
   errorText: {fileID: 1142780392}
-  error: {fileID: 1930378967}
 --- !u!1 &1764456301
 GameObject:
   m_ObjectHideFlags: 0
@@ -10002,8 +10001,9 @@ GameObject:
   - component: {fileID: 1930378965}
   - component: {fileID: 1930378964}
   - component: {fileID: 1930378963}
+  - component: {fileID: 1930378968}
   m_Layer: 5
-  m_Name: ErrorPopup
+  m_Name: Popup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10015,20 +10015,20 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1930378961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1567441919}
   - {fileID: 1142780391}
   - {fileID: 268606554}
-  m_Father: {fileID: 1749945483}
+  m_Father: {fileID: 1338993472}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -0.000005722}
-  m_SizeDelta: {x: -484, y: -280}
+  m_SizeDelta: {x: -484.00006, y: -280}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930378963
 MonoBehaviour:
@@ -10106,19 +10106,30 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1930378961}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!114 &1930378968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930378961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01940b61bc671e4cb5b477c6366d9ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1958400818
 GameObject:
   m_ObjectHideFlags: 0

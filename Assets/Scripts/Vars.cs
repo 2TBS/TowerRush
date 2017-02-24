@@ -15,4 +15,7 @@ public class Vars : MonoBehaviour {
 
 	///Path to config files
 	public static string path = Application.dataPath;
+
+	///Default button color for all UI elements
+	public static Color buttonColor = new Color(162, 255, 255, 138);
 }
