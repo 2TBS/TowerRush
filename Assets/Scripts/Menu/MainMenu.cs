@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 //Code for the entire main menu (EXCEPT Options)
 public class MainMenu : MonoBehaviour {
 	
-	public Canvas homeScreen, options, levelSelect, creditsMenu;
-
+	public Canvas homeScreen, options, joinRoom, creditsMenu, playPanel;
 	public Dropdown optionDropdown;
 	public Canvas general, controls;
 
@@ -20,15 +19,6 @@ public class MainMenu : MonoBehaviour {
 		Debug.Log("Started MainMenu, scene " + SceneManager.GetActiveScene().buildIndex);
 
 		CloseSubmenu();
-
-	}
-
-	///Used for toggling submenus
-		
-	public void OpenLevelSelect() {
-
-		homeScreen.enabled = false;
-		levelSelect.enabled = true;
 	}
 
 	public void OpenOptions() {
@@ -38,14 +28,6 @@ public class MainMenu : MonoBehaviour {
 		optionDropdown.value = 0;
 		general.transform.rotation = new Quaternion (0.0f, 0.0f, 0.0f, 0.0f);
 		general.enabled = true;
-
-	}
-
-	public void OpenCredits() {
-
-		homeScreen.enabled = false;
-		creditsMenu.enabled = true;
-
 	}
 
 	///Code for closing every submenu
@@ -54,9 +36,10 @@ public class MainMenu : MonoBehaviour {
 		homeScreen.enabled = true;
 
 		options.enabled = false;
-			general.enabled = false;
-		levelSelect.enabled = false;
+		general.enabled = false;
+		joinRoom.enabled = false;
 		creditsMenu.enabled = false;
+		playPanel.enabled = false;
 
 	}
 

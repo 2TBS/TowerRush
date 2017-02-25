@@ -32,10 +32,18 @@ protected string user, ip;
 		
 	}
 
-	//When the "Join" button is pressed
-	public void LoadLevel() {
-		string ip = ipText.text;
-		string user = usernameText.text;
+	//When the "Join" button is pressed (overload of LoadLevel(string ip, string user))
+	public void LoadLevel(bool isCreating) {
+		if(!isCreating)
+			LoadLevel(ipText.text, usernameText.text);
+		else {
+			System.Diagnostics.Process.Start(Vars.PATH + "/server/startLocal.bat");
+			LoadLevel("", "Host");
+		}
+	}
+
+	///Loads a level as user from a given IP address
+	public void LoadLevel(string ip, string user) {
 		if(ip.Equals("")) ip = "localhost";
 		if(user.Equals("")) user = "Player";
 

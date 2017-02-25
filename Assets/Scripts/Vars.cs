@@ -14,7 +14,7 @@ public class Vars : MonoBehaviour {
 	///Possible teams a player can join
 	public enum Team {blue, gold};
 
-	///Path to config files
+	///alias of Application.dataPath
 	public static string PATH = Application.dataPath;
 
 	///Default button color for all UI elements

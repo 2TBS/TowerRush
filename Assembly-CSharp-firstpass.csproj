@@ -74,7 +74,10 @@
      <None Include="Assets\Plugins\DarkRift\CustomSerialisationDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\CubeDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\DarkRift.xml" />
+     <None Include="Assets\Server\Logs\25-2-2017\14-16-51 PM.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\DarkRiftAPI.xml" />
+     <None Include="Assets\Server\Logs\25-2-2017\14-19-58 PM.txt" />
+     <None Include="Assets\Server\Logs\25-2-2017\14-21-04 PM.txt" />
      <None Include="Assets\Server\Logs\24-2-2017\10-32-41 AM.txt" />
      <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Plugins\DarkRift\HeavySyncDemo\Readme.txt" />
