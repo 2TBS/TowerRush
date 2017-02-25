@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
 ///File containing all global variables. All variables accessible through Vars.[varname]
 public class Vars : MonoBehaviour {
@@ -14,8 +15,10 @@ public class Vars : MonoBehaviour {
 	public enum Team {blue, gold};
 
 	///Path to config files
-	public static string path = Application.dataPath;
+	public static string PATH = Application.dataPath;
 
 	///Default button color for all UI elements
-	public static Color buttonColor = new Color(162, 255, 255, 138);
+	public static Color BUTTON_COLOR = new Color(162, 255, 255, 138);
+
+	public static List<Item> ITEMLIST = new List<Item> () {};
 }

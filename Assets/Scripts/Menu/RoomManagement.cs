@@ -16,7 +16,7 @@ protected string user, ip;
 	// Use this for initialization
 	void Start () {
 
-		autofillPath = Vars.path + "/autofill.cfg";
+		autofillPath = Vars.PATH + "/autofill.cfg";
 
 		try {
 			ipText.GetComponentInParent<InputField>().text = File.ReadAllLines(autofillPath)[0];

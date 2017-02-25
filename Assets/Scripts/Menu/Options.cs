@@ -21,8 +21,8 @@ public class Options : MonoBehaviour {
 	protected string[] defaultOptions = {"50", "true", "3", "0"};
 	
 	void Start () {
-		controls.configPath = Vars.path + "/controls.cfg";
-		optionsPath = Vars.path + "/options.cfg";
+		controls.configPath = Vars.PATH + "/controls.cfg";
+		optionsPath = Vars.PATH + "/options.cfg";
 
 		volume.maxValue = 100;
 		volume.minValue = 0;

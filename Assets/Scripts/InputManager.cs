@@ -31,7 +31,7 @@ public Text infoText;
 
 	void Start () {
 
-		configPath = Vars.path + "/controls.cfg";
+		configPath = Vars.PATH + "/controls.cfg";
 
 		try {
 			infoText = infoText.GetComponent<Text> (); 

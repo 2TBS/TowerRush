@@ -52,5 +52,6 @@ public class InvSlot : MonoBehaviour {
 		SelectItem();
 		currentItem = buffer;
 		buffer.transform.position = transform.position;
+		inv.selectedItem = buffer;
 	}
 }
