@@ -36,7 +36,7 @@ public Sprite EmptySprite;
 	// Update is called once per frame
 	void Update () {
 		if(itemSelected)
-			selectedItem.transform.position = Input.mousePosition;
+			selectedItem.GetComponentInChildren<Image>().transform.position = Input.mousePosition;
 	}
 
 	///Accepts an item ID instead of the physical Item object (overload of PlaceItem(Item itm))

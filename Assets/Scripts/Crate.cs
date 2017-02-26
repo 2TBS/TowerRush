@@ -10,7 +10,8 @@ public class Crate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		foreach(Item itm in items)
+			items[items.IndexOf(itm)] = GameObject.Instantiate(itm, Vector3.zero, Quaternion.identity).GetComponent<Item>();
 	}
 	
 	// Update is called once per frame
@@ -23,13 +24,15 @@ public class Crate : MonoBehaviour {
 			if(col.gameObject.tag == "BluePlayer" || col.gameObject.tag == "GoldPlayer") {
 				GiveItems(col.gameObject);
 				Object.Destroy(gameObject);
-				Debug.Log(gameObject.name + "Received by" + col.gameObject.name);
+				Debug.Log(gameObject.name + " Received by " + col.gameObject.name);
 			}
 			
 	}
 
 	void GiveItems(GameObject player) {
-		foreach(Item itm in items)
+		foreach(Item itm in items) {
 			player.GetComponentInChildren<Inventory>().PlaceItem(itm);	
+		}
+			
 	}
 }

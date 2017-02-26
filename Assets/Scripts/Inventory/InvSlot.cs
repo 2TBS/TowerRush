@@ -44,12 +44,12 @@ public class InvSlot : MonoBehaviour {
 
 	///Used by Inventory when items are picked up 
 	public void PutDownItem(Item itm) {
-		Item itm2 = Instantiate(itm, Vector3.zero, Quaternion.identity);
+		
 		hasItem = true;
-		currentItem = itm2;
-		itm2.inv = inv;
+		currentItem = itm;
+		itm.inv = inv;
 		ToggleEmpty();
-		Debug.Log("Placed " + itm2 + " in slot " + id);
+		Debug.Log("Placed " + itm + " in slot " + id);
 	}
 
 
@@ -57,7 +57,6 @@ public class InvSlot : MonoBehaviour {
 	void SelectItem () {
 		inv.itemSelected = true;
 		currentItem = inv.selectedItem;
-		currentItem.selected = true;
 		hasItem = false;
 		ToggleEmpty();
 	}
@@ -67,7 +66,6 @@ public class InvSlot : MonoBehaviour {
 		inv.itemSelected = false;
 		currentItem = inv.selectedItem;
 		inv.selectedItem.transform.position = transform.position;
-		currentItem.selected = false;
 		hasItem = true;
 		ToggleEmpty();
 	}

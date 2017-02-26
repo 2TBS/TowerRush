@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Item : MonoBehaviour {
 
 public int id, slot;
-public bool selected = false;
 public Sprite sprite;
 protected Vector3 mousePosition;
 
