@@ -14,13 +14,16 @@ public List<Item> items;
 
 ///currently selected item (following mouse)
 public Item selectedItem;
-public bool itemSelected = false;
 
 ///What shows when an invSlot is empty
 public Sprite EmptySprite;
+public Image  mouseImage;
 
 	// Use this for initialization
 	void Start () {
+
+		mouseImage.enabled = false;
+
 		//find inventory slot buttons, and sorts them into a List based on numerical names
 		foreach (InvSlot slot in GameObject.FindObjectsOfType<InvSlot>())
 			InvSlots.Add(slot);	
@@ -35,8 +38,11 @@ public Sprite EmptySprite;
 	
 	// Update is called once per frame
 	void Update () {
-		if(itemSelected)
-			selectedItem.GetComponentInChildren<Image>().transform.position = Input.mousePosition;
+		if(mouseImage.enabled) {
+			mouseImage.transform.position = Input.mousePosition;
+			mouseImage.sprite = selectedItem.sprite;
+		}
+			
 	}
 
 	///Accepts an item ID instead of the physical Item object (overload of PlaceItem(Item itm))

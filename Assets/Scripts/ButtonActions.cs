@@ -13,7 +13,6 @@ public class ButtonActions : MonoBehaviour {
 	}
 	
 	public void QuitToMainMenu () {
-		Destroy(playerTransform.gameObject);
 		DarkRiftAPI.Disconnect();
 		SceneManager.LoadScene(0); //Load Main Menu
 	}
