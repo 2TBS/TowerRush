@@ -16,10 +16,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010602493334}
-  - 65: {fileID: 65000013499050760}
+  - component: {fileID: 4000010602493334}
+  - component: {fileID: 65000013499050760}
   m_Layer: 0
   m_Name: BlueCrates
   m_TagString: BlueSpawn
@@ -32,10 +32,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013256732188}
-  - 65: {fileID: 65000013400746166}
+  - component: {fileID: 4000013256732188}
+  - component: {fileID: 65000013400746166}
   m_Layer: 0
   m_Name: Crate (5)
   m_TagString: BlueSpawn
@@ -48,10 +48,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000012118454362}
-  - 65: {fileID: 65000011292705942}
+  - component: {fileID: 4000012118454362}
+  - component: {fileID: 65000011292705942}
   m_Layer: 0
   m_Name: Crate (3)
   m_TagString: BlueSpawn
@@ -64,10 +64,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010509799308}
-  - 65: {fileID: 65000012372031786}
+  - component: {fileID: 4000010509799308}
+  - component: {fileID: 65000012372031786}
   m_Layer: 0
   m_Name: Crate (1)
   m_TagString: BlueSpawn
@@ -80,10 +80,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000011049255496}
-  - 65: {fileID: 65000012346043756}
+  - component: {fileID: 4000011049255496}
+  - component: {fileID: 65000012346043756}
   m_Layer: 0
   m_Name: Crate (2)
   m_TagString: BlueSpawn
@@ -96,10 +96,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010127434962}
-  - 65: {fileID: 65000012269441652}
+  - component: {fileID: 4000010127434962}
+  - component: {fileID: 65000012269441652}
   m_Layer: 0
   m_Name: Crate (4)
   m_TagString: BlueSpawn

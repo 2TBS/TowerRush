@@ -15,10 +15,11 @@ public class Vars : MonoBehaviour {
 	public enum Team {blue, gold};
 
 	///alias of Application.dataPath
-	public static string PATH = Application.dataPath;
+	public static readonly string PATH = Application.dataPath;
 
 	///Default button color for all UI elements
 	public static Color BUTTON_COLOR = new Color(162, 255, 255, 138);
 
-	public static List<Item> ITEMLIST = new List<Item> () {};
+	public static Object[] ITEM_LIST = Resources.LoadAll("", typeof(Item));
+
 }

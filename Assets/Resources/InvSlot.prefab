@@ -59,6 +59,7 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
+  itemSprite: {fileID: 0}
 --- !u!114 &114704266261027112
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,0 +1,1260 @@
+26/2/2017 09:33:44 AM	[Trace]	#### Server boot ####
+26/2/2017 09:33:44 AM	[Trace]	#### Server boot ####
+26/2/2017 09:33:44 AM	[Log]	Server mounted, listening on port 4296
+26/2/2017 09:33:44 AM	[Trace]	Found a total of 0 plugins.
+26/2/2017 09:33:45 AM	[Log]	Connected: 127.0.0.1:53602
+26/2/2017 09:33:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 09:33:45 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:33:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:10 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:35:10 AM	[Log]	Disconnected: 127.0.0.1:53602
+26/2/2017 09:35:42 AM	[Log]	Connected: 127.0.0.1:53616
+26/2/2017 09:35:43 AM	[Trace]	Exception trace ConnectionService.ProcessDataItem
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:35:43 AM	[Error]	System.IO.IOException: The process cannot access the file 'C:\Users\BenCu\OneDrive\Documents\Git\TowerRush\Assets\Server\Logs\26-2-2017\09-33-44 AM.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DarkRift.Interface.LogTrace(String message, String prefix)
+   at DarkRift.ConnectionService.ProcessDataItem(Byte[] data)
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:51 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:52 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:53 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:35:53 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:53 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:35:53 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:37:19 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:37:19 AM	[Log]	Disconnected: 127.0.0.1:53616
+26/2/2017 09:41:30 AM	[Log]	Connected: 127.0.0.1:53688
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:41:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:41:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:45:59 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:45:59 AM	[Log]	Disconnected: 127.0.0.1:53688
+26/2/2017 09:46:07 AM	[Log]	Connected: 127.0.0.1:53807
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:46:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:46:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:00 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:48:00 AM	[Log]	Disconnected: 127.0.0.1:53807
+26/2/2017 09:48:08 AM	[Log]	Connected: 127.0.0.1:53848
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:48:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:48:21 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:48:21 AM	[Log]	Disconnected: 127.0.0.1:53848
+26/2/2017 09:49:29 AM	[Log]	Connected: 127.0.0.1:53869
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 09:49:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 09:49:37 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 09:49:37 AM	[Log]	Disconnected: 127.0.0.1:53869
+26/2/2017 10:14:07 AM	[Log]	Connected: 127.0.0.1:54147
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:07 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:14:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:14:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:14:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:15:13 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:15:13 AM	[Log]	Disconnected: 127.0.0.1:54147
+26/2/2017 10:20:56 AM	[Log]	Connected: 127.0.0.1:54255
+26/2/2017 10:20:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:20:56 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:20:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:20:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:20:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:22:42 AM	[Log]	Disconnected: 127.0.0.1:54255
+26/2/2017 10:22:58 AM	[Log]	Connected: 127.0.0.1:54271
+26/2/2017 10:22:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:22:58 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:22:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:22:59 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:02 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:03 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:03 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:03 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:23:03 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:23:56 AM	[Log]	Disconnected: 127.0.0.1:54271
+26/2/2017 10:24:04 AM	[Log]	Connected: 127.0.0.1:54281
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:24:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:24:14 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:24:14 AM	[Log]	Disconnected: 127.0.0.1:54281
+26/2/2017 10:26:54 AM	[Log]	Connected: 127.0.0.1:54313
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:54 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:26:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:27:25 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:27:25 AM	[Log]	Disconnected: 127.0.0.1:54313
+26/2/2017 10:28:41 AM	[Log]	Connected: 127.0.0.1:54332
+26/2/2017 10:28:41 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:28:41 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:28:41 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:28:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:28:47 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:28:47 AM	[Log]	Disconnected: 127.0.0.1:54332
+26/2/2017 10:29:24 AM	[Log]	Connected: 127.0.0.1:54356
+26/2/2017 10:29:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:29:24 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:39 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:29:39 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:29:49 AM	[Log]	Disconnected: 127.0.0.1:54356
+26/2/2017 10:29:49 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:30:57 AM	[Log]	Connected: 127.0.0.1:54377
+26/2/2017 10:30:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:30:57 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:30:58 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:00 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:31:01 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:31:04 AM	[Log]	Disconnected: 127.0.0.1:54377
+26/2/2017 10:31:04 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:34:46 AM	[Log]	Connected: 127.0.0.1:54424
+26/2/2017 10:34:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:34:46 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:34:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:34:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:34:57 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:34:57 AM	[Log]	Disconnected: 127.0.0.1:54424
+26/2/2017 10:38:10 AM	[Log]	Connected: 127.0.0.1:54476
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:22 AM	[Log]	Disconnected: 127.0.0.1:54476
+26/2/2017 10:38:22 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:38:55 AM	[Log]	Connected: 127.0.0.1:54490
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:38:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:39:36 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:39:36 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:39:40 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:39:40 AM	[Log]	Disconnected: 127.0.0.1:54490
+26/2/2017 10:44:33 AM	[Log]	Connected: 127.0.0.1:54600
+26/2/2017 10:44:33 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:44:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:44:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:44:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:44:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:44:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:44:41 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:44:41 AM	[Log]	Disconnected: 127.0.0.1:54600
+26/2/2017 10:48:23 AM	[Log]	Connected: 127.0.0.1:54679
+26/2/2017 10:48:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:48:23 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:48:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:35 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:48:35 AM	[Log]	Disconnected: 127.0.0.1:54679
+26/2/2017 10:48:56 AM	[Log]	Connected: 127.0.0.1:54689
+26/2/2017 10:48:56 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:48:57 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:00 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:50:00 AM	[Log]	Disconnected: 127.0.0.1:54689
+26/2/2017 10:50:08 AM	[Log]	Connected: 127.0.0.1:54693
+26/2/2017 10:50:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:50:08 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:50:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:50:19 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:50:19 AM	[Log]	Disconnected: 127.0.0.1:54693
+26/2/2017 10:53:18 AM	[Log]	Connected: 127.0.0.1:54739
+26/2/2017 10:53:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:53:18 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:53:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:53:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:53:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:55:37 AM	[Log]	Disconnected: 127.0.0.1:54739
+26/2/2017 10:57:42 AM	[Log]	Connected: 127.0.0.1:54790
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:42 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:43 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:57:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:57:46 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:36 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 10:59:36 AM	[Log]	Disconnected: 127.0.0.1:54790
+26/2/2017 10:59:44 AM	[Log]	Connected: 127.0.0.1:54820
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:59:44 AM	[Log]	Disconnected: 127.0.0.1:54820
+26/2/2017 10:59:44 AM	[Trace]	Disconnect was due to handled exception: System.IO.IOException: The process cannot access the file 'C:\Users\BenCu\OneDrive\Documents\Git\TowerRush\Assets\Server\Logs\26-2-2017\09-33-44 AM.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at DarkRift.Interface.LogTrace(String message, String prefix)
+   at DarkRift.ConnectionService.ProcessDataItem(Byte[] data)
+   at DarkRift.ConnectionService.ReadBodyCallback(Byte[] bytes)
+   at DarkRift.ConnectionService.ChunkReadCallback(IAsyncResult result)
+   at System.Net.LazyAsyncResult.Complete(IntPtr userToken)
+   at System.Net.ContextAwareResult.CaptureOrComplete(ExecutionContext& cachedContext, Boolean returnContext)
+   at System.Net.ContextAwareResult.FinishPostingAsyncOp(CallbackClosure& closure)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode, AsyncCallback callback, Object state)
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at DarkRift.ConnectionService.StartWaitingForChunk(StateObject state)
+   at DarkRift.ConnectionService.ReadHeaderCallback(Byte[] bytes)
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 10:59:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:59:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 10:59:45 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:09 AM	[Log]	Connected: 127.0.0.1:54830
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:00:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:00:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:00:13 AM	[Log]	Disconnected: 127.0.0.1:54830
+26/2/2017 11:00:13 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:01:55 AM	[Log]	Connected: 127.0.0.1:54854
+26/2/2017 11:01:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:01:55 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:01:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:01:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:01:55 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:01:56 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:02 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:02:02 AM	[Log]	Disconnected: 127.0.0.1:54854
+26/2/2017 11:02:49 AM	[Log]	Connected: 127.0.0.1:54866
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:02:49 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:02:50 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:05:56 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:05:56 AM	[Log]	Disconnected: 127.0.0.1:54866
+26/2/2017 11:06:04 AM	[Log]	Connected: 127.0.0.1:54901
+26/2/2017 11:06:04 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:06:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:06:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:06:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:06:04 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:06:05 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:06:54 AM	[Log]	Disconnected: 127.0.0.1:54901
+26/2/2017 11:09:30 AM	[Log]	Connected: 127.0.0.1:54950
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:31 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:32 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:33 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:09:36 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:09:36 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:11:09 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:11:09 AM	[Log]	Disconnected: 127.0.0.1:54950
+26/2/2017 11:11:16 AM	[Log]	Connected: 127.0.0.1:54962
+26/2/2017 11:11:16 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:11:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:11:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:11:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:06 AM	[Log]	Disconnected: 127.0.0.1:54962
+26/2/2017 11:13:13 AM	[Log]	Connected: 127.0.0.1:55006
+26/2/2017 11:13:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:13:13 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:13:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:19 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:13:19 AM	[Log]	Disconnected: 127.0.0.1:55006
+26/2/2017 11:13:43 AM	[Log]	Connected: 127.0.0.1:55016
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:13:44 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:15:08 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:15:08 AM	[Log]	Disconnected: 127.0.0.1:55016
+26/2/2017 11:15:47 AM	[Log]	Connected: 127.0.0.1:55041
+26/2/2017 11:15:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:15:47 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:15:47 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:15:48 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:26 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:19:26 AM	[Log]	Disconnected: 127.0.0.1:55041
+26/2/2017 11:19:33 AM	[Log]	Connected: 127.0.0.1:55084
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:19:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:20:21 AM	[Log]	Disconnected: 127.0.0.1:55084
+26/2/2017 11:20:29 AM	[Log]	Connected: 127.0.0.1:55140
+26/2/2017 11:20:29 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:20:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:20:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:20:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:20:29 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:20:30 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:01 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:21:01 AM	[Log]	Disconnected: 127.0.0.1:55140
+26/2/2017 11:21:09 AM	[Log]	Connected: 127.0.0.1:55148
+26/2/2017 11:21:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:21:09 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:21:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:10 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:13 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:21:13 AM	[Log]	Disconnected: 127.0.0.1:55148
+26/2/2017 11:21:22 AM	[Log]	Connected: 127.0.0.1:55154
+26/2/2017 11:21:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:21:22 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:21:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:21:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:21:58 AM	[Log]	Disconnected: 127.0.0.1:55154
+26/2/2017 11:23:22 AM	[Log]	Connected: 127.0.0.1:55179
+26/2/2017 11:23:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:23:22 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:23:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:23:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:23:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:23:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:07 AM	[Log]	Disconnected: 127.0.0.1:55179
+26/2/2017 11:29:15 AM	[Log]	Connected: 127.0.0.1:55257
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:29:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:29:17 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:29:17 AM	[Log]	Disconnected: 127.0.0.1:55257
+26/2/2017 11:32:08 AM	[Log]	Connected: 127.0.0.1:55290
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:08 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:09 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:11 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:12 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:14 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:15 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:21 AM	[Log]	Disconnected: 127.0.0.1:55290
+26/2/2017 11:32:21 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:32:23 AM	[Log]	Connected: 127.0.0.1:55291
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:27 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:32:27 AM	[Log]	Disconnected: 127.0.0.1:55291
+26/2/2017 11:32:34 AM	[Log]	Connected: 127.0.0.1:55297
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:34 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:35 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:32:38 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:32:40 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:32:40 AM	[Log]	Disconnected: 127.0.0.1:55297
+26/2/2017 11:33:12 AM	[Log]	Connected: 127.0.0.1:55320
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:13 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:16 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:17 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:18 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:19 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:20 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:21 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:22 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:23 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:24 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:25 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 11:33:26 AM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 11:34:26 AM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 11:34:26 AM	[Log]	Disconnected: 127.0.0.1:55320

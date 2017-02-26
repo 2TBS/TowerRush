@@ -48,7 +48,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000011039401826
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,4 +324,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   team: 0
-  items: []
+  items:
+  - {fileID: 114785067657019034, guid: 77c3425621f69a34284f58c4567f443a, type: 2}

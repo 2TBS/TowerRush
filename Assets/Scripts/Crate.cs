@@ -29,6 +29,7 @@ public class Crate : MonoBehaviour {
 	}
 
 	void GiveItems(GameObject player) {
-
+		foreach(Item itm in items)
+			player.GetComponentInChildren<Inventory>().PlaceItem(itm);	
 	}
 }

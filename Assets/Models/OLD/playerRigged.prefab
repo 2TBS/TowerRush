@@ -1630,6 +1630,7 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -60
   maximumY: 60
+  isEnabled: 1
 --- !u!114 &114089037732013014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1708,6 +1709,7 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -60
   maximumY: 60
+  isEnabled: 1
 --- !u!114 &114132476091834532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1896,6 +1898,10 @@ MonoBehaviour:
   HUD: {fileID: 223195382260129136}
   PauseMenu: {fileID: 223211459848646462}
   TeamSelection: {fileID: 223193232520031546}
+  Options: {fileID: 0}
+  Inventory: {fileID: 0}
+  mLookX: {fileID: 0}
+  mLookY: {fileID: 0}
 --- !u!114 &114227928714140738
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1944,6 +1950,7 @@ MonoBehaviour:
   - Run
   - Crouch
   - Inventory
+  configPath: 
   textList: []
   infoText: {fileID: 0}
 --- !u!114 &114259595646063008
@@ -1959,6 +1966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   networkID: 0
   isMine: 0
+  anim: {fileID: 0}
+  plValues: {fileID: 0}
+  gui: {fileID: 0}
 --- !u!114 &114272801362676240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2182,6 +2192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pgui: {fileID: 114222105737145126}
+  playerTransform: {fileID: 0}
   team: 0
 --- !u!114 &114417940662344516
 MonoBehaviour:

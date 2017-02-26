@@ -81,6 +81,7 @@
      <None Include="Assets\Server\Logs\24-2-2017\10-32-41 AM.txt" />
      <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Plugins\DarkRift\HeavySyncDemo\Readme.txt" />
+     <None Include="Assets\Server\Logs\26-2-2017\09-33-44 AM.txt" />
      <None Include="Assets\Plugins\DarkRift\Readme.txt" />
      <None Include="Assets\list.txt" />
  <Reference Include="UnityEngine.UI">

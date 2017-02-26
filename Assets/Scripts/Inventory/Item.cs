@@ -1,27 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Item : MonoBehaviour {
 
 public int id, slot;
 public bool selected = false;
+public Sprite sprite;
 protected Vector3 mousePosition;
 
-[SerializeField]
-protected Inventory inv;
+public Inventory inv;
 
 	// Use this for initialization
 	void Start () {
-
+		sprite = GetComponentInChildren<Image>().sprite;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-		if(selected) {
-			mousePosition=Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			transform.position = mousePosition;
-		}
+
 	}
 }

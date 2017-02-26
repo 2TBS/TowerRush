@@ -16,11 +16,14 @@ public List<Item> items;
 public Item selectedItem;
 public bool itemSelected = false;
 
+///What shows when an invSlot is empty
+public Sprite EmptySprite;
+
 	// Use this for initialization
 	void Start () {
 		//find inventory slot buttons, and sorts them into a List based on numerical names
-		foreach (GameObject slot in GameObject.FindGameObjectsWithTag("InventorySlot"))
-			InvSlots.Add(slot.GetComponent<InvSlot> ());	
+		foreach (InvSlot slot in GameObject.FindObjectsOfType<InvSlot>())
+			InvSlots.Add(slot);	
 		foreach(InvSlot slot in InvSlots) {
 			int oldIndex = InvSlots.IndexOf(slot);
 			int index = Int32.Parse(slot.name);
@@ -38,24 +41,28 @@ public bool itemSelected = false;
 
 	///Accepts an item ID instead of the physical Item object (overload of PlaceItem(Item itm))
 	public void PlaceItem(int itemId) {
-		PlaceItem(GetItem(itemId));
+		PlaceItem(CreateItem(itemId));
 	}
 
 	///Puts an Item into the first available item slot
 	public void PlaceItem(Item itm) {
 		int placed = 0;
 		while(placed >= 0) {
-			if(!InvSlots[placed].hasItem)
-				InvSlots[placed].currentItem = itm;
+			if(!InvSlots[placed].hasItem) {
+				InvSlots[placed].PutDownItem(itm);
+				placed = -1;
+			} else placed++;
 		}
+
+		items.Add(itm);
 	}
 
 	///returns an Item based on its ID
-	public Item GetItem(int itemId) {
-		foreach(Item itm in items) 
+	public Item CreateItem(int itemId) {
+		foreach(Item itm in Vars.ITEM_LIST) 
 			if(itm.id == itemId) return itm;
 		
-		throw new ArgumentException("Item " + itemId + "could not be found.");
+		throw new ArgumentException("Item " + itemId + " could not be found.");
 
 	}
 
