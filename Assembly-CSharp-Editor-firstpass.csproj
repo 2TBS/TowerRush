@@ -75,6 +75,7 @@
      <None Include="Assets\Server\Logs\26-2-2017\09-33-44 AM.txt" />
      <None Include="Assets\Plugins\DarkRift\Readme.txt" />
      <None Include="Assets\list.txt" />
+     <None Include="Assets\Server\Logs\26-2-2017\20-16-46 PM.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Apps/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

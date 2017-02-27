@@ -1,0 +1,38 @@
+26/2/2017 20:16:46 PM	[Trace]	#### Server boot ####
+26/2/2017 20:16:46 PM	[Trace]	#### Server boot ####
+26/2/2017 20:16:46 PM	[Log]	Server mounted, listening on port 4296
+26/2/2017 20:16:46 PM	[Trace]	Found a total of 0 plugins.
+26/2/2017 20:16:46 PM	[Log]	Connected: 127.0.0.1:63223
+26/2/2017 20:16:47 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 0-0
+26/2/2017 20:16:47 PM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: 0-1
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-1
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:48 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:50 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:50 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:51 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-2
+26/2/2017 20:16:52 PM	[Log]	Data: Sender: 1 DistributionType: Others Tag-Subject: 1-0
+26/2/2017 20:17:20 PM	[Log]	Data: Sender: 1 DistributionType: All Tag-Subject: internal (255)-Disconnect (0)
+26/2/2017 20:17:20 PM	[Log]	Disconnected: 127.0.0.1:63223

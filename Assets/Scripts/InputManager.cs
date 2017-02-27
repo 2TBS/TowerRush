@@ -39,13 +39,9 @@ public Text infoText;
 		} catch {
 			Debug.LogWarning("InfoText not found for InputManager.");
 		}
-		
-
-		
 
 		controlList = new List<KeyCode> {Forward, Back, Left, Right, Jump, Run, Crouch, Inventory};
 
-		
 		//validate controls file
 		if(File.Exists(configPath) && ControlsValid())  
 			Debug.Log("Successfully loaded controls file");
@@ -58,18 +54,7 @@ public Text infoText;
 		ReloadControls();
 
 		//find buttons that set controls, and sorts them into an array
-		foreach (GameObject txt in GameObject.FindGameObjectsWithTag("SetControlsButton"))
-			textList.Add(txt.GetComponent<Text> ());	
-		foreach(Text txt in textList) {
-			int oldIndex = textList.IndexOf(txt);
-			int index = Int32.Parse(txt.name);
-			Text buffer = textList[index];
-			textList[index] = txt;
-			textList[oldIndex] = buffer;
-			txt.text = Key(index).ToString();
-		}
-			
-		
+		textList = Sorter.sortByName<Text>(GameObject.FindGameObjectsWithTag("SetControlsButton"));
 	}
 
 	void OnGUI () {

@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\RoomLogic.cs" />
+     <Compile Include="Assets\Scripts\Sorter.cs" />
      <Compile Include="Assets\Scripts\TagIndex.cs" />
      <Compile Include="Assets\Scripts\Turret.cs" />
      <Compile Include="Assets\Scripts\Vars.cs" />
@@ -103,6 +104,7 @@
      <None Include="Assets\Server\Logs\26-2-2017\09-33-44 AM.txt" />
      <None Include="Assets\Plugins\DarkRift\Readme.txt" />
      <None Include="Assets\list.txt" />
+     <None Include="Assets\Server\Logs\26-2-2017\20-16-46 PM.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Apps/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

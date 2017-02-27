@@ -27,15 +27,10 @@ public Image  mouseImage;
 		mouseImage.enabled = false;
 
 		//find inventory slot buttons, and sorts them into a List based on numerical names
-		foreach (InvSlot slot in GameObject.FindObjectsOfType<InvSlot>())
-			InvSlots.Add(slot);	
-		foreach(InvSlot slot in InvSlots) {
-			int oldIndex = InvSlots.IndexOf(slot);
-			int index = Int32.Parse(slot.name);
-			InvSlot buffer = InvSlots[index];
-			InvSlots[index] = slot;
-			InvSlots[oldIndex] = buffer;
-		}
+		List<GameObject> slotObjects = new List<GameObject>();
+		foreach(InvSlot slot in GameObject.FindObjectsOfType<InvSlot>())
+			slotObjects.Add(slot.gameObject);
+		InvSlots = Sorter.sortByName<InvSlot>(slotObjects);
 	}
 	
 	// Update is called once per frame
