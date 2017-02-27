@@ -20,6 +20,7 @@ public class Vars : MonoBehaviour {
 	///Default button color for all UI elements
 	public static Color BUTTON_COLOR = new Color(162, 255, 255, 138);
 
+	///All usable items
 	public static Object[] ITEM_LIST = Resources.LoadAll("", typeof(Item));
 
 }

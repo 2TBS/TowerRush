@@ -1,14 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
+///Base class for all Items; ID must be assigned manually
 public class Item : MonoBehaviour {
 
-public int id, slot;
-public Sprite sprite;
-protected Vector3 mousePosition;
+public int id;
 
+[HideInInspector] 
+public int slot;
+[HideInInspector]
+public Sprite sprite;
+[HideInInspector]
 public Inventory inv;
 
 	// Use this for initialization

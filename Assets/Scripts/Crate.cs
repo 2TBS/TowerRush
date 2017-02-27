@@ -6,6 +6,8 @@ using UnityEngine;
 public class Crate : MonoBehaviour {
 
 	public Vars.Team team;
+
+	///List of all items this crate gives to player (Edit manually)
 	public List<Item> items;
 
 	// Use this for initialization
@@ -30,9 +32,7 @@ public class Crate : MonoBehaviour {
 	}
 
 	void GiveItems(GameObject player) {
-		foreach(Item itm in items) {
+		foreach(Item itm in items)
 			player.GetComponentInChildren<Inventory>().PlaceItem(itm);	
-		}
-			
 	}
 }

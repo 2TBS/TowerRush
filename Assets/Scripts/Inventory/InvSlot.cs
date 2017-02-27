@@ -1,19 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-///Button action for inventory slot
+///Required code for every inventory slot within an Inventory
 public class InvSlot : MonoBehaviour {
 
+	///Index within the array of inventory slots for this Inventory
 	public int id;
-	public Item currentItem;
-	public Inventory inv;
-	public bool hasItem = false, spriteEmpty = true;
+
+	///Item being stored in this inventory slot
+	public Item currentItem; 
+
+	///inventory this itemslot belongs to
+	public Inventory inv; 
+
+	///Returns true if inventory slot contains an item
+	public bool hasItem = false;
+
+	///Child image of inventory slot
 	public Image itemSprite;
 
-	// Use this for initialization
 	void Start () {
 		id = Int32.Parse(name);
 		
@@ -23,16 +29,11 @@ public class InvSlot : MonoBehaviour {
 		itemSprite.enabled = true;
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	///Changes sprite to empty sprite if spriteEmpty == true
 	void ToggleEmpty () {
-		spriteEmpty = !spriteEmpty;
-		itemSprite.sprite = (spriteEmpty) ? inv.EmptySprite : currentItem.sprite;
+		hasItem = !hasItem;
+		itemSprite.sprite = (hasItem) ? currentItem.sprite : inv.EmptySprite;
 	}
 
 	///Selects a method from below to run 
@@ -44,8 +45,6 @@ public class InvSlot : MonoBehaviour {
 
 	///Used by Inventory when items are picked up 
 	public void PutDownItem(Item itm) {
-		
-		hasItem = true;
 		currentItem = itm;
 		itm.inv = inv;
 		ToggleEmpty();
@@ -57,7 +56,6 @@ public class InvSlot : MonoBehaviour {
 	void SelectItem () {
 		inv.mouseImage.enabled = true;
 		inv.selectedItem = currentItem;
-		hasItem = false;
 		ToggleEmpty();
 	}
 
@@ -65,7 +63,6 @@ public class InvSlot : MonoBehaviour {
 	void PutDownItem() {
 		inv.mouseImage.enabled = false;
 		currentItem = inv.selectedItem;
-		hasItem = true;
 		ToggleEmpty();
 	}
 
