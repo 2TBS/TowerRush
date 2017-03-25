@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PlayerGUI : MonoBehaviour {
+public class Pl_GUI : MonoBehaviour {
 
 	public Canvas HUD, PauseMenu, TeamSelection, Options, Inventory;
 	public Pl_MouseLook mLookX, mLookY;

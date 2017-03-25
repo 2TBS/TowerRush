@@ -4,12 +4,12 @@ using DarkRift;
 
 
 public class ButtonActions : MonoBehaviour {
-	public PlayerGUI pgui;
+	public Pl_GUI pgui;
 	public Transform playerTransform;
 	public Vars.Team team;
 
 	void Start () {
-		pgui = GetComponent<PlayerGUI> ();
+		pgui = GetComponent<Pl_GUI> ();
 	}
 	
 	public void QuitToMainMenu () {

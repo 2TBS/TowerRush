@@ -126,7 +126,6 @@ public Text infoText;
 
 	///Assign this method to buttons in order to change key bindings
 	public void SetKey (int id) {
-		
 			Text buttonText = textList[id];
 			Debug.Log("Selecting Key " + id);
 			infoText.enabled = true;

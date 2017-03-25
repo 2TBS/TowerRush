@@ -51,7 +51,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ButtonActions.cs" />
      <Compile Include="Assets\Scripts\Crate.cs" />
-     <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\EssentialScripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\EssentialScripts\Popup.cs" />
+     <Compile Include="Assets\Scripts\EssentialScripts\Sorter.cs" />
      <Compile Include="Assets\Scripts\Inventory\InvSlot.cs" />
      <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
      <Compile Include="Assets\Scripts\Inventory\Item.cs" />
@@ -65,17 +67,15 @@
      <Compile Include="Assets\Scripts\OLD\NetworkProp.cs" />
      <Compile Include="Assets\Scripts\OLD\PhotonConnection.cs" />
      <Compile Include="Assets\Scripts\Player\Pl_Controller.cs" />
+     <Compile Include="Assets\Scripts\Player\Pl_GUI.cs" />
+     <Compile Include="Assets\Scripts\Player\Pl_HUD.cs" />
+     <Compile Include="Assets\Scripts\Player\Pl_Helper.cs" />
      <Compile Include="Assets\Scripts\Player\Pl_MouseLook.cs" />
      <Compile Include="Assets\Scripts\Player\Pl_NetworkManager.cs" />
      <Compile Include="Assets\Scripts\Player\Pl_PositionStabilizer.cs" />
      <Compile Include="Assets\Scripts\Player\Pl_Values.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerGUI.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerHUD.cs" />
-     <Compile Include="Assets\Scripts\Player\playerHelper.cs" />
-     <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\RoomLogic.cs" />
-     <Compile Include="Assets\Scripts\Sorter.cs" />
      <Compile Include="Assets\Scripts\TagIndex.cs" />
      <Compile Include="Assets\Scripts\Turret.cs" />
      <Compile Include="Assets\Scripts\Vars.cs" />

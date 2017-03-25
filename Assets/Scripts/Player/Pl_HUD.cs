@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerHUD : MonoBehaviour {
+public class Pl_HUD : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
