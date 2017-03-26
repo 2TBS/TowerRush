@@ -835,7 +835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1275739222649996
 GameObject:
   m_ObjectHideFlags: 1
@@ -869,6 +869,8 @@ GameObject:
   - component: {fileID: 23866782037660490}
   - component: {fileID: 136149604569943994}
   - component: {fileID: 54325463006884744}
+  - component: {fileID: 114249287823893286}
+  - component: {fileID: 114777253620975250}
   m_Layer: 0
   m_Name: playerRiggedDR
   m_TagString: Untagged
@@ -4090,7 +4092,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114062877737482314
 MonoBehaviour:
@@ -4418,7 +4419,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114094273674630544
 MonoBehaviour:
@@ -4529,7 +4529,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114112871605490534
 MonoBehaviour:
@@ -5334,6 +5333,32 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114249287823893286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276127261169418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 3
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114777253620975250}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
 --- !u!114 &114249642853013120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5550,7 +5575,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114277360528375286
 MonoBehaviour:
@@ -6393,7 +6417,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276127261169418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1031774432694dbd237eb175f3220, type: 3}
   m_Name: 
@@ -6612,7 +6636,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114437634462688526
 MonoBehaviour:
@@ -6981,7 +7004,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114471630038218822
 MonoBehaviour:
@@ -7400,7 +7422,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114531653848183682
 MonoBehaviour:
@@ -7637,7 +7658,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114573674188264936
 MonoBehaviour:
@@ -7951,7 +7971,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114609865346879072
 MonoBehaviour:
@@ -8638,7 +8657,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114714167967548460
 MonoBehaviour:
@@ -8954,7 +8972,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114743381954237590
 MonoBehaviour:
@@ -9120,6 +9137,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Start Game
+--- !u!114 &114777253620975250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276127261169418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19026d2cb674a3429c209da70fe2c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gui: {fileID: 1275164750594308}
+  photonView: {fileID: 114249287823893286}
 --- !u!114 &114779246971600700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9224,7 +9254,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114790649034753830
 MonoBehaviour:
@@ -9284,7 +9313,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114808612689827794
 MonoBehaviour:
@@ -9475,7 +9503,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114845846500670464
 MonoBehaviour:
@@ -9882,7 +9909,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114905906968607158
 MonoBehaviour:
@@ -9953,7 +9979,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114914361308072386
 MonoBehaviour:
@@ -9970,7 +9995,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114914368002203114
 MonoBehaviour:
@@ -10832,7 +10856,6 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   inv: {fileID: 0}
   hasItem: 0
-  spriteEmpty: 1
   itemSprite: {fileID: 0}
 --- !u!114 &114991264363859582
 MonoBehaviour:

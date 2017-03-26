@@ -2114,7 +2114,6 @@ GameObject:
   - component: {fileID: 1165134436}
   - component: {fileID: 1165134440}
   - component: {fileID: 1165134439}
-  - component: {fileID: 1165134441}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -2175,11 +2174,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1165134435}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52dfbccd92d82c743abe2110685c16b4, type: 3}
+  m_Script: {fileID: 11500000, guid: b581e1a0bd63ef64cad90a244d5ae98f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerObject: {fileID: 1276127261169418, guid: 3de762dd3a8555040a04c605ad16678c,
-    type: 2}
 --- !u!114 &1165134440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2232,17 +2229,6 @@ MonoBehaviour:
   - {fileID: 1323372964}
   - {fileID: 1288021883}
   - {fileID: 920398740}
---- !u!114 &1165134441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1165134435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecb84c8190e27c641bab7651eb2b9f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1277967803 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000011157092374, guid: 377859b1b436def4ca68ee635f0faa69,
