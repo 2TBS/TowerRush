@@ -4,12 +4,17 @@ using DarkRift;
 
 
 public class ButtonActions : MonoBehaviour {
-	public Pl_GUI pgui;
-	public Transform playerTransform;
-	public Vars.Team team;
+
+	Pl_GUI pgui;
+	Pl_TeamManager pTM;
+	
+	[SerializeField]
+	Transform playerTransform;
+
 
 	void Start () {
-		pgui = GetComponent<Pl_GUI> ();
+		pgui = GetComponentInParent<Pl_GUI> ();
+		pTM = GetComponentInParent<Pl_TeamManager> ();
 	}
 	
 	public void QuitToMainMenu () {
@@ -29,9 +34,10 @@ public class ButtonActions : MonoBehaviour {
     {
             Debug.Log("JOINING BLUE");
         	playerTransform.position = Vars.testMapBlue;
-       		team = Vars.Team.blue;
+       		pTM.team = Vars.Team.blue;
         	CloseTeamSelect();
         	playerTransform.tag = "BluePlayer";
+			pTM.Refresh();
     }
 
     public void joinGold()
@@ -39,10 +45,10 @@ public class ButtonActions : MonoBehaviour {
        
             Debug.Log("JOINING GOLD");
         	playerTransform.position = Vars.testMapGold;
-       		team = Vars.Team.gold;
+       		pTM.team = Vars.Team.gold;
         	CloseTeamSelect();
         	playerTransform.tag = "GoldPlayer";
-        
+			pTM.Refresh();
     }
 
 	public void StartGame()

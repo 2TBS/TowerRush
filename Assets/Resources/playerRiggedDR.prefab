@@ -872,6 +872,7 @@ GameObject:
   - component: {fileID: 114249287823893286}
   - component: {fileID: 114777253620975250}
   - component: {fileID: 114052999882880032}
+  - component: {fileID: 114543547210971230}
   m_Layer: 0
   m_Name: playerRiggedDR
   m_TagString: Untagged
@@ -7563,6 +7564,28 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Run
+--- !u!114 &114543547210971230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276127261169418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a676b39e181154dad22b10630e188f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team: 0
+  goldMat:
+  - {fileID: 2100000, guid: 49e09bcbac2470241ae3c313badf3e82, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
+  blueMat:
+  - {fileID: 2100000, guid: 7209e99314f9f524ba8721191f9ce415, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
+  - {fileID: 2100000, guid: 1633ad1c865855a49bf35dd780980b8f, type: 2}
 --- !u!114 &114544463942751050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10493,9 +10516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7aeae8b707c8a40b269bf3fd9733bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pgui: {fileID: 114182175298640866}
   playerTransform: {fileID: 4713749977176982}
-  team: 0
 --- !u!114 &114957934249803320
 MonoBehaviour:
   m_ObjectHideFlags: 1

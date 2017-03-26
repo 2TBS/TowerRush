@@ -54,28 +54,23 @@
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\PlayerDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\ReadMe.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\11-53-58 AM.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\11-55-38 AM.txt" />
-     <None Include="Assets\Server\Logs\24-2-2017\10-31-56 AM.txt" />
-     <None Include="Assets\Server\Lib\DarkRift.xml" />
-     <None Include="Assets\Server\Logs\26-2-2017\12-01-48 PM.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+     <None Include="Assets\Photon Unity Networking\link.xml" />
      <None Include="Assets\Plugins\DarkRift\CustomSerialisationDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\CubeDemo\Readme.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\DarkRift.xml" />
-     <None Include="Assets\Server\Logs\25-2-2017\14-16-51 PM.txt" />
+     <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\DarkRiftAPI.xml" />
-     <None Include="Assets\Server\Logs\26-2-2017\12-06-01 PM.txt" />
-     <None Include="Assets\Server\Logs\25-2-2017\14-19-58 PM.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\17-52-20 PM.txt" />
-     <None Include="Assets\Server\Logs\25-2-2017\14-21-04 PM.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\14-19-26 PM.txt" />
-     <None Include="Assets\Server\Logs\24-2-2017\10-32-41 AM.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
      <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoPickup\Assets\3dFont\3dText.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Plugins\DarkRift\HeavySyncDemo\Readme.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\09-33-44 AM.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Plugins\DarkRift\Readme.txt" />
      <None Include="Assets\list.txt" />
-     <None Include="Assets\Server\Logs\26-2-2017\20-16-46 PM.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Apps/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -139,12 +134,6 @@
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/BenCu/OneDrive/Documents/Git/TowerRush/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
- <Reference Include="DarkRift">
- <HintPath>C:/Users/BenCu/OneDrive/Documents/Git/TowerRush/Assets/Server/Lib/DarkRift.dll</HintPath>
- </Reference>
- <Reference Include="Transmission">
- <HintPath>C:/Users/BenCu/OneDrive/Documents/Git/TowerRush/Assets/Server/Lib/Transmission.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Apps/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -159,6 +148,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Apps/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/BenCu/OneDrive/Documents/Git/TowerRush/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/BenCu/OneDrive/Documents/Git/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
