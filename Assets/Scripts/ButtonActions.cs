@@ -18,7 +18,7 @@ public class ButtonActions : MonoBehaviour {
 	}
 	
 	public void QuitToMainMenu () {
-		DarkRiftAPI.Disconnect();
+        PhotonNetwork.LeaveRoom();
 		SceneManager.LoadScene(0); //Load Main Menu
 	}
 	
