@@ -12,7 +12,11 @@ public class MP_Connection : MonoBehaviour {
     public Text roomName;
     public Text playerName;
 
-	void Start () {
+    public Text roomNameC;
+    public Text playerNameC;
+
+
+    void Start () {
         if (!PhotonNetwork.connected)
             PhotonNetwork.ConnectUsingSettings(networkVersion);
         else
@@ -37,7 +41,18 @@ public class MP_Connection : MonoBehaviour {
     
     public void createRoom()
     {
-        PhotonNetwork.CreateRoom("room");
+        if(roomNameC.text.Equals(null) || roomNameC.text.Equals(""))
+        {
+            return;
+        }
+
+        if (playerNameC.text.Equals(null) || playerNameC.text.Equals(""))
+        {
+            return;
+        }
+
+        PhotonNetwork.playerName = playerNameC.text;
+        PhotonNetwork.CreateRoom(roomNameC.text);
     }
 
 
