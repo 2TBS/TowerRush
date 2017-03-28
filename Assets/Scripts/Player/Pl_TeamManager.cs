@@ -21,6 +21,8 @@ public class Pl_TeamManager : MonoBehaviour {
 	}
 
 	public void Refresh() {
-		mesh.materials = (team == Vars.Team.gold) ? goldMat : blueMat;
+
+		foreach(Pl_TeamManager tm in Resources.FindObjectsOfTypeAll(typeof (Pl_TeamManager)))
+			tm.mesh.materials = (team == Vars.Team.gold) ? goldMat : blueMat;
 	}
 }
