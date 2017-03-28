@@ -52,9 +52,6 @@ public Text infoText;
 			}	
 			
 		ReloadControls();
-
-		//find buttons that set controls, and sorts them into an array
-		textList = Sorter.sortByName<Text>(GameObject.FindGameObjectsWithTag("SetControlsButton"));
 	}
 
 	void OnGUI () {
@@ -83,9 +80,13 @@ public Text infoText;
 	}
 	
 	private void ReloadControls () {
-		for(int i = 0; i < controlList.Count; i++) {
+		//find buttons that set controls, and sorts them into an array
+		textList = Sorter.sortByName<Text>(GameObject.FindGameObjectsWithTag("SetControlsButton"));
+
+		for(int i = 0; i < controlList.Count; i++)
 			controlList[i] = GetKeyInternal(i);
-		}
+		for(int i = 0; i < textList.Count; i++)
+			textList[i].text = controlList[i].ToString();
 	}
 	
 	protected bool ControlsValid () {
@@ -126,7 +127,6 @@ public Text infoText;
 
 	///Assign this method to buttons in order to change key bindings
 	public void SetKey (int id) {
-			Text buttonText = textList[id];
 			Debug.Log("Selecting Key " + id);
 			infoText.enabled = true;
 			StartCoroutine(WaitForKey(id));
