@@ -7,7 +7,7 @@ public class MP_Lobby : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         PhotonNetwork.isMessageQueueRunning = true;
-        PhotonNetwork.Instantiate("playerRiggedDR", Vars.testMapGold, Quaternion.identity, 0);
+        PhotonNetwork.Instantiate("playerRiggedDR", Vars.lobby, Quaternion.identity, 0);
 	}
 	
 	// Update is called once per frame
