@@ -21,7 +21,11 @@ public class InvSlot : MonoBehaviour {
 	public Image itemSprite;
 
 	void Start () {
-		id = Int32.Parse(name);
+		try {
+			id = Int32.Parse(name);
+		} catch {
+			Debug.Log("InvSlot " + name + " not parsed as an int. Using given value instead");
+		}
 		
 		itemSprite = GetComponentsInChildren<Image> ()[1]; 
 		inv = GetComponentInParent<Inventory>();

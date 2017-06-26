@@ -10,7 +10,7 @@ using PlayFab.PfEditor.EditorModels;
 #if UNITY_5_4 || UNITY_5_5
 using UnityEngine.Networking;
 #else
-    using UnityEngine.Experimental.Networking;
+    using UnityEngine.Networking;
 #endif
 
 namespace PlayFab.PfEditor

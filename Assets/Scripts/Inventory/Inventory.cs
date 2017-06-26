@@ -19,7 +19,7 @@ public Item selectedItem;
 public Sprite EmptySprite;
 
 ///Enabled when an item is selected to be moved
-public Image  mouseImage;
+public Image mouseImage;
 
 	// Use this for initialization
 	void Start () {
@@ -29,7 +29,7 @@ public Image  mouseImage;
 		//find inventory slot buttons, and sorts them into a List based on numerical names
 		List<GameObject> slotObjects = new List<GameObject>();
 		foreach(InvSlot slot in GameObject.FindObjectsOfType<InvSlot>())
-			slotObjects.Add(slot.gameObject);
+			if(slot.id < 100) slotObjects.Add(slot.gameObject);
 		InvSlots = Sorter.sortByName<InvSlot>(slotObjects);
 	}
 	
@@ -68,5 +68,15 @@ public Image  mouseImage;
 			if(itm.id == itemId) return itm;
 		
 		throw new ArgumentException("Item " + itemId + " could not be found.");
+	}
+
+	///returns an InvSlot with the given ID
+	public InvSlot GetSlot(int slotId) {
+		foreach(InvSlot slot in GameObject.FindObjectsOfType<InvSlot>()) {
+			if(slot.id == slotId) return slot;
+		}
+
+		Debug.LogWarning("Slot " + slotId + " could not be found.");
+		return null;
 	}
 }
