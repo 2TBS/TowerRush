@@ -1,0 +1,14 @@
+Object Crate:
+  define weightCapacity
+  define currentWeight as 0
+  define roundDrop
+  define Owner
+  define Contents as Empty
+  
+  action AddItem:
+    check currentWeight+Item.Weight is < weightCapacity:
+    if so:
+      add Item to Contents
+      add Item.Weight to currentWeight
+    if not:
+      return error overCapacity

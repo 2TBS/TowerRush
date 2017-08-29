@@ -1,0 +1,5 @@
+Object Weapon:
+  define weaponType
+  define damageType
+  define Durability
+  define Weight
