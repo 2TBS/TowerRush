@@ -3,3 +3,5 @@ Object Weapon:
   define damageType
   define Durability
   define Weight
+  define Rarity
+  define Name
