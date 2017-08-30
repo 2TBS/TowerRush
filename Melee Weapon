@@ -1,0 +1,18 @@
+Object Melee Inheriting From Weapon
+  define weaponType as Melee
+  inherit damageType
+  inherit Durability
+  inherit Weight
+  inherit Name
+  inherit Rarity
+  define damage
+  
+  function Attack:
+    Transmit damage to all nearby enemies
+    Check those 1 distance and ±2° from player location and facing
+    Check if positive:
+    If true:
+      Confrim Damage
+    If false:
+      Ignore
+  
