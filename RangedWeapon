@@ -1,0 +1,24 @@
+Object Ranged inheriting from Weapon
+  define weaponType as Ranged
+  inherit damageType
+  inherit Durability
+  inherit Weight
+  inherit Name
+  inherit Rarity
+  define damage
+  define effectiveRange
+  define maxRange
+  define spread
+  define magazine
+  define ammo
+  define bulletsPerShot
+  define reloadTime
+  define recoil
+  define special from effectArray
+  
+  function Attack:
+    check if ammo = 0:
+    if true:
+      delay reloadTime
+      set ammo value as magazine
+    
