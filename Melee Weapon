@@ -1,4 +1,4 @@
-Object Melee Inheriting From Weapon
+Object Melee inheriting from Weapon
   define weaponType as Melee
   inherit damageType
   inherit Durability
@@ -6,13 +6,16 @@ Object Melee Inheriting From Weapon
   inherit Name
   inherit Rarity
   define damage
+  define reach
+  define sweep
+  define special from effectArray
   
   function Attack:
     Transmit damage to all nearby enemies
-    Check those 1 distance and ±2° from player location and facing
+    Check those reach distance and sweep from player location and facing
     Check if positive:
     If true:
-      Confrim Damage
+      Confrim Damage, add special
     If false:
       Ignore
   
