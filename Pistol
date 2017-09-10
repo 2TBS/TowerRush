@@ -1,0 +1,28 @@
+Object Pistol inheriting from Ranged
+  define weaponType as Ranged
+  inherit damageType
+  inherit Durability
+  inherit Weight
+  inherit Name
+  inherit Rarity
+  inherit damage
+  inherit effectiveRange
+  inherit maxRange
+  inherit spread
+  inherit magazine
+  inherit ammo
+  define bulletsPerShot as 1
+  inherit reloadTime
+  inherit recoil
+  define special from effectArray
+  
+  function Attack:
+    check if ammo = 0:
+    if true:
+      delay reloadTime
+      set ammo value as magazine
+    
+    raycast bulletPath
+    bulletPath.deviate spread
+    add recoil
+    transmit bulletPath, damage
