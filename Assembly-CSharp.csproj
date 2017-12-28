@@ -51,6 +51,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bearded Man Studios Inc\Examples\Cube Forge\Scripts\CubeForgeGame.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Examples\Cube Forge\Scripts\NetCam.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Examples\Cube Forge\Scripts\Primitive.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Examples\Proximity\ExampleProximityPlayer.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Examples\Proximity\ExampleProximitySpawn.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\NetworkManager.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\NetworkObjectFactory.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\ChatManagerBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\ChatManagerNetworkObject.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\CubeForgeGameBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\CubeForgeGameNetworkObject.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\ExampleProximityPlayerBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\ExampleProximityPlayerNetworkObject.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\NetworkCameraBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\NetworkCameraNetworkObject.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\TestBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Generated\UserGenerated\TestNetworkObject.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\Chat\ChatMaker.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\Chat\ChatManager.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\LobbySystem\LobbyManager.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\LobbySystem\LobbyPlayer.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\LobbySystem\LobbyPlayerItem.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\Stand Alone Chat\StandAloneChat.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\VOIP\VOIP.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Modules\VOIP\VoipStarter.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\BMSUnityExtensions.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\InterpolateQuaternion.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\InterpolateVector2.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\InterpolateVector3.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\InterpolateVector4.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\Logging\BMSLogger.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\MainThreadManager.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\Multiplayer Menu\MultiplayerMenu.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\NetworkBehavior.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\NetworkManager.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\NetworkObjectFactory.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\NetworkObjectFactoryBase.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\Server Browser\ServerBrowser.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\Server Browser\ServerBrowserItem.cs" />
+     <Compile Include="Assets\Bearded Man Studios Inc\Scripts\UnityObjectMapper.cs" />
      <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
      <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />
      <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayer.cs" />
@@ -219,20 +259,25 @@
      <Compile Include="Assets\Scripts\TagIndex.cs" />
      <Compile Include="Assets\Scripts\Turret.cs" />
      <Compile Include="Assets\Scripts\Vars.cs" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkBehaviorTemplate.txt" />
      <None Include="Assets\Plugins\DarkRift\ChangeLog.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\Readme.txt" />
      <None Include="Assets\Plugins\PlayFabSdk\link.xml" />
      <None Include="Assets\Plugins\DarkRift\PlayerDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\ReadMe.txt" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkObjectTemplate.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkObjectFactoryTemplate.txt" />
      <None Include="Assets\Plugins\DarkRift\CustomSerialisationDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\CubeDemo\Readme.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\DarkRift.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\DarkRiftAPI.xml" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\StandAloneNetworkBehaviorTemplate.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkManagerTemplate.txt" />
      <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
@@ -279,6 +324,12 @@
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="BeardedManStudios">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
+ </Reference>
+ <Reference Include="ForgeNetworkingCommon">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

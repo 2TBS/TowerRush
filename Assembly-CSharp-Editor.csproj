@@ -70,20 +70,25 @@
      <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonTransformViewEditor.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PlayerRoomIndexingInspector.cs" />
      <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkBehaviorTemplate.txt" />
      <None Include="Assets\Plugins\DarkRift\ChangeLog.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\Readme.txt" />
      <None Include="Assets\Plugins\PlayFabSdk\link.xml" />
      <None Include="Assets\Plugins\DarkRift\PlayerDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\ReadMe.txt" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkObjectTemplate.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkObjectFactoryTemplate.txt" />
      <None Include="Assets\Plugins\DarkRift\CustomSerialisationDemo\Readme.txt" />
      <None Include="Assets\Plugins\DarkRift\CubeDemo\Readme.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\DarkRift\EmbeddedServer\DarkRift.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Plugins\DarkRift\DarkRift\Plugins\DarkRiftAPI.xml" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\StandAloneNetworkBehaviorTemplate.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\Bearded Man Studios Inc\Editor\Resources\BMS_Forge_Editor\NetworkManagerTemplate.txt" />
      <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
@@ -187,6 +192,15 @@
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="BeardedManStudios">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
+ </Reference>
+ <Reference Include="ForgeNetworkingUnityEditor">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Editor/ForgeNetworkingUnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ForgeNetworkingCommon">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>E:/Downloads/Unity5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
