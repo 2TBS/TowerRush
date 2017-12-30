@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using DarkRift;
-
 
 public class ButtonActions : MonoBehaviour {
 
@@ -18,7 +16,6 @@ public class ButtonActions : MonoBehaviour {
 	}
 	
 	public void QuitToMainMenu () {
-        PhotonNetwork.LeaveRoom();
 		SceneManager.LoadScene(0); //Load Main Menu
 	}
 	

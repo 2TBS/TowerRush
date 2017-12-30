@@ -229,6 +229,15 @@
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>E:/Downloads/Unity5/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
+ <Reference Include="BeardedManStudios">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
+ </Reference>
+ <Reference Include="ForgeNetworkingCommon">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
  <Reference Include="DarkRiftAPI">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/DarkRift/DarkRift/Plugins/DarkRiftAPI.dll</HintPath>
  </Reference>
@@ -240,15 +249,6 @@
  </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="BeardedManStudios">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
- </Reference>
- <Reference Include="ForgeNetworkingCommon">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

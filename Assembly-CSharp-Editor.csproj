@@ -175,6 +175,21 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>E:/Downloads/Unity5/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="ForgeNetworkingUnityEditor">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Editor/ForgeNetworkingUnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="BeardedManStudios">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
+ </Reference>
+ <Reference Include="ForgeNetworkingCommon">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
  <Reference Include="DarkRiftAPI">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/DarkRift/DarkRift/Plugins/DarkRiftAPI.dll</HintPath>
  </Reference>
@@ -186,21 +201,6 @@
  </Reference>
  <Reference Include="websocket-sharp">
  <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Plugins/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="BeardedManStudios">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/BeardedManStudios.dll</HintPath>
- </Reference>
- <Reference Include="ForgeNetworkingUnityEditor">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Editor/ForgeNetworkingUnityEditor.dll</HintPath>
- </Reference>
- <Reference Include="ForgeNetworkingCommon">
- <HintPath>C:/Users/Vikram/Documents/GitHub/TowerRush/Assets/Bearded Man Studios Inc/Plugins/ForgeNetworkingCommon.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>E:/Downloads/Unity5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
