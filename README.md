@@ -1,24 +1,21 @@
 # TOWERRUSH
 ___
 #### Build Status: Latest (develop branch)
-[![Build Status](https://travis-ci.com/dbqeo/TowerRush.svg?token=JfBJk9gm8EheDBEGwTCZ&branch=develop)](https://travis-ci.com/dbqeo/TowerRush/branches)
+[![Build Status](https://travis-ci.org/2TBS/TowerRush.svg?branch=develop)](https://travis-ci.org/2TBS/TowerRush)
 
 #### Build Status: Stable (master branch)
-[![Build Status](https://travis-ci.com/dbqeo/TowerRush.svg?token=JfBJk9gm8EheDBEGwTCZ&branch=master)](https://travis-ci.com/dbqeo/TowerRush/branches)
+[![Build Status](https://travis-ci.org/2TBS/TowerRush.svg?branch=master)](https://travis-ci.org/2TBS/TowerRush)
 ___
-## **Download** The Game From Official Project Website:
-[https://fewdpew.me/download](https://fewdpew.me/download)
+## **Download** The Game:
+https://github.com/2TBS/TowerRush/releases
+
+## Visit our website!
+https://bananiumlabs.com/2tbs
 
 ### TowerRush Alpha is open-source under the [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl-3.0.en.html).
 ___
-### **CURRENT STAGE: BASIC MECHANICS**
-### **CURRENT FOCUS: [HUD & Weapons](https://github.com/FewdpewGames/unity-game/tree/develop)**
 
-### The tower defense game where you are the attacker.
-
-### [Click here](https://github.com/BenCuan/unity-game/wiki) to check out the Wiki
-### [Click here](https://github.com/BenCuan/unity-game/wiki/getting-started) if you need help getting started
-### [Click here](https://github.com/BenCuan/unity-game/blob/master/CHANGELOG.md) to view the changelog
+### [Click here](https://github.com/2TBS/TowerRush/blob/master/CHANGELOG.md) to view the changelog
 
 ## Planned Features
   - First and Third person perspectives
@@ -40,12 +37,11 @@ ___
 
 ## Developers
 
- - **Project Manager** [Ben C](https://github.com/BenCuan)
- - **Project Manager** [Eric Q](https://github.com/eric1084)
- - **Lead Programmer** [Vikram P](https://github.com/DarkFlamex1)
- - **Concept Designer** [Aryan S](https://github.com/CrispyCookieHD)
- - **Contributors** [Jeffery Y](https://github.com/JeffY95014), [Dohyun K](https://github.com/DohyunK), and [Omar H](https://github.com/OmarHossain)
+ - [Ben C](https://github.com/dbqeo)
+ - [Eric Q](https://github.com/EnumC)
+ - [Vikram P](https://github.com/DarkFlamex1)
+ - **Contributors** [Jeffery Y](https://github.com/JeffY95014), [Dohyun K](https://github.com/DohyunK), [Omar H](https://github.com/OmarHossain), and [Aryan S](https://github.com/TomatoKyoko)
  
-Contact us by sending an email to [contact@mvgd.club](mailto:contact@mvgd.club).
+Contact us by sending an email to [contact@bananiumlabs.com](mailto:contact@bananiumlabs.com).
 
 ## This project adheres to [Semantic Versioning](semver.org).
