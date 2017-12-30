@@ -4,8 +4,17 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This changelog follows the format as defined by [Keep a Changelog](http://keepachangelog.com/).
 All unreleased changes are found in develop. Master is for released content only.
 
+## [Alpha 1.4.0] - YYYY-MM-DD
+### Added 
+ - Combat System
+
+### Changed
+ - Move to Forge Networking API
+ - Total Rewrite of code for smoother, faster, and better gameplay
+ - UI redesign
+ 
 ## [Alpha 1.3.0] - 2017-1-1
-###Added
+### Added
  - Functionality for Crates
  - In-game options menu
  - More user-friendly error popups
@@ -13,12 +22,12 @@ All unreleased changes are found in develop. Master is for released content only
  - Game saves last entered username and IP
  - Game saves options
  - Basic nonfunctional inventory (full functionality coming next update)
-###Changed
+### Changed
  - Servers now run on DarkRift API instead of Photon API
  - User enters username and IP instead of blind joining
  - Updated Input Manager: automatically detects buttons for changing controls
  - Free resizing no longer allowed
-###Fixed
+### Fixed
  - Return to Main Menu occasionally fails
  - Fullscreen toggle not working
  - Game not launching on Mac
@@ -27,45 +36,45 @@ All unreleased changes are found in develop. Master is for released content only
  - Mouse lock not working
  
 ## [Alpha 1.2.1] - 2016-07-13
-###Added
+### Added
  - Fullscreen toggle
  - InputManager Axis Support
-###Changed
+### Changed
  - Splash image replaced with more finalized version
  - Updated Input Manager: improved custom key management
 
-###Fixed
+### Fixed
  - Could not rejoin after leaving to main menu
  - Controls.cfg not generating properly in build mode
  - Running not toggling properly
  
 ## [Alpha 1.2.0] - 2016-06-27
-###Added
+### Added
 - Crates (Archer, Ninja, Bomber and Miner)
 - Randomized crate spawning
 - Controls menu (editable controls)
 - Animations for player
 - Weapon and Armor models (currently unimplemented)
 
-###Changed
+### Changed
  - Placeholder player model replaced with new one
  - Joining server now built in to main menu
  - Updated player controller
  
-###Fixed
+### Fixed
  - Fall detection
  - Problems with joining server 
  - Player glitching through walls
  
 ## [Alpha 1.1.0] - 2016-06-05
-###Added
+### Added
 - Basic multiplayer setup
 - Basic teams system
 - Build checking/travis CI support
 - Fall detection
 - HUD Outline
 
-###Changed
+### Changed
  - New logo
  - New code for player controller and player GUI
  - Player is now a character instead of a rigidbody
@@ -73,15 +82,15 @@ All unreleased changes are found in develop. Master is for released content only
  
 
 ## [Alpha 1.0.1] - 2016-05-08
-###Added
+### Added
  - Ability to jump
  - Basic player GUI (Pause menu)
  - Custom logo
  
-###Fixed
+### Fixed
  - Mouse was not hidden
 
-###Removed
+### Removed
  - Unity Popup
 
 ## [Alpha 1.0.0] - 2016-05-07
@@ -92,12 +101,13 @@ All unreleased changes are found in develop. Master is for released content only
 - Standard Unity assets
 
 
-[Alpha 1.0.0]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.0.0-alpha
-[Alpha 1.0.1]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.0.1-alpha
-[Alpha 1.1.0]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.1.0-alpha
-[Alpha 1.2.0]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.2.0-alpha
-[Alpha 1.2.1]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.2.1-alpha
-[Alpha 1.3.0]: https://github.com/FewdpewGames/unity-game/releases/tag/v1.3.0-alpha
+[Alpha 1.0.0]: https://github.com/2TBS/TowerRush/releases/tag/v1.0.0-alpha
+[Alpha 1.0.1]: https://github.com/2TBS/TowerRush/releases/tag/v1.0.1-alpha
+[Alpha 1.1.0]: https://github.com/2TBS/TowerRush/releases/tag/v1.1.0-alpha
+[Alpha 1.2.0]: https://github.com/2TBS/TowerRush/releases/tag/v1.2.0-alpha
+[Alpha 1.2.1]: https://github.com/2TBS/TowerRush/releases/tag/v1.2.1-alpha
+[Alpha 1.3.0]: https://github.com/2TBS/TowerRush/releases/tag/v1.3.0-alpha
+[Alpha 1.4.0]: https://github.com/2TBS/TowerRush/releases/tag/v1.4.0-alpha
 
 
 <!---
